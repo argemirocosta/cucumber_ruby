@@ -1,6 +1,6 @@
 ---
 
-default: --profile progress -p homolog -p firefox_headless -p html
+default: --profile pretty -p homolog -p chrome -p html
 pretty: --format pretty
 progress: --format progress 
 homolog: AMBIENTE=homolog 
@@ -9,4 +9,4 @@ chrome: BROWSER=chrome
 chrome_headless: BROWSER=chrome_headless
 firefox: BROWSER=firefox
 firefox_headless: BROWSER=firefox_headless
-html: --format html --out=reports/relatorio.html
+html: --format html --out=report/relatorio.html

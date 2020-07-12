@@ -3,10 +3,12 @@ Dir[File.join(File.dirname(__FILE__), '../pages/*_page.rb')].each { |file| requi
 
 module PageObjects
 
-    def home
-        
-        @home ||= MapeandoElementosPage.new 
-        
+    def home 
+        @home ||= HomePage.new 
+    end
+
+    def search 
+        @search ||= SearchPage.new 
     end
     
 end
