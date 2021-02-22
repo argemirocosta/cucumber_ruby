@@ -1,4 +1,4 @@
-# Homefashion
+# Cucumber Ruby
 
 Tests for some websites using cucumber, capybara, site_prism selenium webdriver in ruby.
 
